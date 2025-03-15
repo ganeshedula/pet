@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seller</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="seller.css">
+</head>
+<body>
+  <div class="seller-container">
+    <h2>List Your Pet</h2>
+    <form id="petForm">
+      <label for="petName">Pet Name:</label>
+      <input type="text" id="petName" required>
+      <label for="petType">Pet Type:</label>
+      <input type="text" id="petType" required>
+      <label for="petDescription">Description:</label>
+      <textarea id="petDescription" required></textarea>
+      <label for="petImage">Upload Image:</label>
+      <input type="file" id="petImage" accept="image/*">
+      <button type="submit">List Pet</button>
+    </form>
+  </div>
+
+  <script src="seller.js"></script>
+</body>
+</html>

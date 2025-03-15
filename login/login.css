@@ -1,0 +1,27 @@
+/* login/login.css */
+.login-container {
+    max-width: 400px;
+    margin: 56px auto;
+    padding: 30px;
+    background: #d3e3ea;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-container p {
+    margin-top: 15px;
+  }
+  
+  .login-container a {
+    color: #7a8182;
+    text-decoration: none;
+  }
+  
+  .login-container a:hover {
+    text-decoration: underline;
+  }
